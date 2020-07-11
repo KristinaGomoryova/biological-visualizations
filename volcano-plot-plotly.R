@@ -29,8 +29,7 @@ data <- read.delim2("data.txt", stringsAsFactors = FALSE)
 head(data) 
 str(data) 
 
-==============================================================
-  # make sure you change in the following scripts "logFC", "pvalue" and "annotation" to the real names of your columns!
+# make sure you change in the following scripts "logFC", "pvalue" and "annotation" to the real names of your columns!
   
   # add a grouping column, default value is "non-significant" 
   data["group"] <- "NS" 
